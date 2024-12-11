@@ -1,0 +1,424 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+#head-div{
+  /* width: 85rem; */
+  /* height: 180rem; */
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+/* designing the section Home  */
+#Home{
+  height: 52.5rem;
+  position: relative;
+  /* width: 85rem; */
+}
+
+/* designing the section home ended here  */
+
+#background-video {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  width: 100%;
+  height: 100%;
+  /* width: 85rem;
+  height: 56rem; */
+  object-fit: cover; 
+  z-index: -1; 
+}
+
+/* navbar styling started here  */
+.navbar{
+    text-decoration: none;
+    padding-top: 1rem;
+    z-index: 2;
+}
+
+.navDiv{
+    display: flex;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 3rem;
+    color: #fff;
+    /* background-image: image("images/syncspherelogo.png"); */
+    background-image: url("syncspherelogo.png");
+    background-size:18rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10rem ;
+    height: 7rem ;
+    z-index: 1000;
+}
+
+.navborder{
+  border: 0.125rem solid #2bd1d1;
+  border-radius: 0.625rem;
+}
+
+.navli{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbutton{
+  padding: 1rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.navli, .navbutton{
+  margin-top: 2rem;
+  margin-right: 1.3rem;
+}
+
+.navli a{
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+}
+.navlogin{
+  margin-left: 3rem;
+}
+.navbutton a {
+  text-decoration: none;
+  color: #fff;
+  font-size: larger;
+}
+/* navbar styling ends here  */
+
+/* designing of box1 started  */
+.box1{
+  margin-left: 2rem;
+  margin-top: 4rem;
+  padding: 2rem;
+  color: white;
+  font-family: 'ADLaM Display', serif;
+}
+
+.box1-img{
+  width: 28.125rem;
+  height: 25rem;
+  position: relative;
+  background-image: url("box1img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 3;
+  float: right;
+  margin-right: 1.875rem;
+  opacity: 0.64;
+  border-radius: 3.125rem;
+}
+
+.box1-logo{
+  width: 30.875rem ;
+  height: 6.188rem;
+  background-color: #949494;
+  border-radius: 0.625rem;
+  text-align: center;
+  color: #162B4B;
+  font-size: 4rem;
+}
+
+.box1-content{
+  width: 45rem;
+  height: 9.375rem;
+  background-color: #0C2735;
+  border-radius: 0.625rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-size:x-large;
+  color: #8EEBEC;
+}
+
+.box1 button{
+  padding: 0.1rem;
+  margin-top: 1rem;
+  background-color: transparent;
+  color: #7CB89A;
+  font-weight: bolder ;
+  border: 0.125rem solid #0C2735;
+  border-radius: 0.5rem;
+  font-size: 2.063rem;
+  padding: 1rem;
+  cursor: pointer;
+  
+}
+
+/* designing of space started */
+.space{
+  height: 5rem;
+  background-image: linear-gradient(#060d18, #060C15 );
+}
+/* designing of space ended */
+
+/* designing section about  */
+#About{
+  padding: 0;
+  margin: 0;
+  background-color: #060C15;
+  background-image: radial-gradient(#fff 1px, transparent 1px);
+  background-size: 3.125rem 3.125rem;
+  padding-bottom: 3rem;
+}
+/* designing of section about ended here  */
+
+/* designing box2 and box3 started here  */
+.box2, .box3{
+  width: 70rem;
+  height: 18.75rem;
+  position: relative;
+  top: 5rem;
+  left: 6rem;
+  margin: 0 6rem 10rem 6rem ;
+  padding: 3rem;
+  color: white;
+  border: 0.125rem solid cyan;
+  font-family: 'ADLaM Display', serif;
+}
+
+
+
+/* designing box2 started here  */
+.box2 {
+  text-align: center;
+  padding: 1.25rem;
+  border-radius: 0.6235rem;
+  width: 70rem;
+}
+
+.title {
+  font-size: 2rem;
+  color: #AFFFD7;
+}
+
+.highlight {
+  background-color: #474a4a;
+  padding: 0.313rem 0.625rem;
+  border-radius: 1.875rem;
+  color: #ffff;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.875rem;
+}
+
+.step {
+  width: 50rem;
+}
+
+.step-number {
+  background-color: #4a4a4a;
+  border-radius: 10rem;
+  width: 3.125rem;
+  height: 3.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 2rem;
+}
+.step-title {
+  font-size: 1.5rem;
+  margin: 0.625rem 0;
+}
+.step-description {
+  font-size: 1.125rem;
+  padding: 1.5rem;
+}
+/* designing box2 ended here  */
+
+/* designing box3 started here  */
+.box3{
+    text-align: center;
+    padding: 1.4rem;
+    background-color: transparent;
+    display: flex;
+}
+
+.faq-photo{
+  height: 12rem;
+  width: 14rem;
+  margin-top: 6rem;
+  padding-right: 2rem;
+  background-image: url("Thinking-problem.png");
+  background-position: center;
+  background-size: 8rem;
+  margin-left: 1rem;
+  margin-right: 4rem;
+  background-repeat: no-repeat;
+}
+
+.faq-header {
+  font-size: 6rem;
+  color: #ffffff;
+  margin-bottom: 1.25rem;
+  width:0.1rem;
+  height: 18rem;
+  padding-left: 1rem;
+}
+
+.faq-item {
+  width: 25rem;
+  background-color: transparent;
+  padding: 0.3rem;
+  border: 0.125rem solid #ffff;
+  border-radius: 1.875rem;
+  margin-left: 2rem;
+}
+
+.faq-item h3 {
+  color: #AFFFD7;
+  font-size: 1.3rem;
+  margin-top: 0.625rem;
+}
+
+.faq-item p {
+  color: white;
+  margin-top: 0.625rem;
+  font-size: 1.125rem;
+}
+/* designing box3 ended here  */
+
+
+/* designing box4 started here  */
+.box4 {
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'ADLaM Display', serif;
+}
+
+.header {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  writing-mode: vertical-rl; /* Vertical text */
+  transform: rotate(180deg); 
+  left: 1.5rem; 
+  color: #00ffcc;
+}
+
+.tips-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.tip-card {
+  align-items: center;
+
+  background-color: #2e2e2e;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.tip-card h2 {
+  color: #00ffcc;
+  margin-bottom: 0.7rem;
+}
+
+.tip-card p {
+  color: #b0b0b0;
+}
+
+.tip-card:hover {
+  transform: translateY(-10px);
+  background-color: #00ffcc;
+  color: #1a1a1a;
+}
+
+.tip-card:hover h2, .tip-card:hover p {
+  color: #1a1a1a;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .tips-grid {
+      grid-template-columns: 1fr;
+  }
+
+  .tip-card {
+      font-size: 1rem;
+  }
+}
+/* designing box4 ended here  */
+
+
+
+/* designing section contact  */
+
+#Contact{
+  height: 27rem;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  background-image: linear-gradient( #162B4B, #060C15 2%, #091320 70%, #0E1E36 100%);
+}
+.footer {
+  display: flex;
+  height: 18.75rem;
+  justify-content: space-around;
+  padding: 1.25rem;
+  color: white;
+  width: 85rem;
+}
+.footer-section {
+  padding: 0.625rem;
+  margin-top: 0.625rem;
+}
+.footer-section h3 {
+  margin-top: 0.25rem;
+  font-size: large;
+}
+.footer-section p {
+  margin-top: 0.938rem;
+  font-size: large;
+}
+.footer-section a {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+  display: block;
+  margin:0.438rem 0.25rem;
+}
+.footer-section a:hover {
+  text-decoration: underline;
+}
+.footer-button{
+  background-color: transparent;
+  border: none;
+  padding: 0.438rem;
+  margin-top: 0.375rem;
+  margin-right: 0.375rem;
+}
+.footer-border{
+  border: 0.2rem solid #162B4B;
+  border-radius: 0.6rem;
+}
+.footer-site{
+  margin-top: 3rem;
+}
+.footer-logo{
+  text-align: center;
+  padding: 0.625rem;
+  font-size: larger;
+  font-weight: bold;
+}
+.footer-bottom {
+  color: white;
+  text-align: center;
+  padding: 0.625rem;
+}
+
+/* designing of section contact ended here  */
+

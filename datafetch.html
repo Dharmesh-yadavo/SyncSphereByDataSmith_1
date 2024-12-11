@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find your Interest</title>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+    <!--  -->
+    <link rel="stylesheet" href="datafetch.css">
+</head>
+<body>
+
+    <section id="Home">
+        <div class="navDiv">
+            <div id="logo"></div>
+        </div>
+
+    <div id="result-div">
+        <div class="search-form">
+            <label for="" id="search-form-head">Find people with Common Interest :</label>
+            <input id="searchInterest" type="search">
+            <button type="submit" onclick="searchinterest()" id="find">Search</button>
+        </div>
+        <div id="card-container" class="card-container">
+            <h3>Results:</h3>
+            <div id="results"></div>
+        </div>
+    </div>
+    </section>
+
+        <script src="datafetch.js"></script>
+    
+</body>
+</html>
