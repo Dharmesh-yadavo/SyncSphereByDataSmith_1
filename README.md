@@ -1,2 +1,2 @@
-# SyncSphereByDataSmith_1
+# SyncSphereByDataSmith
 Sync Sphere 
